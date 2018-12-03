@@ -11,6 +11,7 @@ target 'mpm' do
   pod 'NVActivityIndicatorView'
   pod 'SwiftyJSON'
   pod 'Alamofire-SwiftyJSON'
+  pod 'Hue'
 
   target 'mpmTests' do
     inherit! :search_paths

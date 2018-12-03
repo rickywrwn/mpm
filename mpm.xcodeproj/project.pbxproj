@@ -16,6 +16,7 @@
 		7E3B36F121B4D70C00B63CBA /* mpmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B36F021B4D70C00B63CBA /* mpmTests.swift */; };
 		7E3B36FC21B4D70C00B63CBA /* mpmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B36FB21B4D70C00B63CBA /* mpmUITests.swift */; };
 		7E3B370A21B4DC6F00B63CBA /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B370921B4DC6F00B63CBA /* LoginController.swift */; };
+		7E3B370C21B4ECB600B63CBA /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B370B21B4ECB600B63CBA /* HomeController.swift */; };
 		F31882C566FCC9F53C0FD433 /* Pods_mpmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DEC99A7613937AA8ED063B /* Pods_mpmUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		7E3B36FB21B4D70C00B63CBA /* mpmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mpmUITests.swift; sourceTree = "<group>"; };
 		7E3B36FD21B4D70C00B63CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E3B370921B4DC6F00B63CBA /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		7E3B370B21B4ECB600B63CBA /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		9444E7F359877A145D5F5E97 /* Pods-mpmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mpmUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mpmUITests/Pods-mpmUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B0DEC99A7613937AA8ED063B /* Pods_mpmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mpmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2782BE9BF66B529BD5D3969 /* Pods-mpmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mpmUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mpmUITests/Pods-mpmUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			children = (
 				7E3B36DB21B4D70A00B63CBA /* AppDelegate.swift */,
 				7E3B370921B4DC6F00B63CBA /* LoginController.swift */,
+				7E3B370B21B4ECB600B63CBA /* HomeController.swift */,
 				7E3B36DF21B4D70A00B63CBA /* Main.storyboard */,
 				7E3B36E221B4D70C00B63CBA /* Assets.xcassets */,
 				7E3B36E421B4D70C00B63CBA /* LaunchScreen.storyboard */,
@@ -323,6 +326,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-mpm/Pods-mpm-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -330,6 +334,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -383,6 +388,7 @@
 			files = (
 				7E3B370A21B4DC6F00B63CBA /* LoginController.swift in Sources */,
 				7E3B36DC21B4D70A00B63CBA /* AppDelegate.swift in Sources */,
+				7E3B370C21B4ECB600B63CBA /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
